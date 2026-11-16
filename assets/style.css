@@ -192,12 +192,3 @@ a.eqcard:hover{color:inherit;box-shadow:0 10px 28px rgba(20,54,111,.12);transfor
 @media (min-width:761px){.dd .menu{min-width:210px}}
 .fees thead th:last-child{text-align:right}
 .eqcard{position:relative}.badge.sm{font-size:13px;margin:6px 0 0;padding:5px 12px}
-
-/* 수술안내 · 장비 제품 사진 */
-.sphoto.prod{display:grid;gap:14px;grid-template-columns:1fr}
-.sphoto.prod.n2{grid-template-columns:1fr 1fr}
-.sphoto.prod figure{margin:0;background:#FFFFFF;border:1px solid #DCE5F3;border-radius:20px;padding:14px 14px 16px;text-align:center}
-.sphoto.prod img{aspect-ratio:3/5;object-fit:contain;border-radius:0;cursor:zoom-in}
-.sphoto.prod.n1 img{aspect-ratio:4/5}
-.sphoto.prod figcaption{margin-top:10px;font-size:15px;font-weight:700;color:#14366F}
-@media (max-width:900px){.sphoto.prod img{aspect-ratio:3/4}.sphoto.prod.n1 img{aspect-ratio:4/3}}
