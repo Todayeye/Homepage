@@ -192,3 +192,7 @@ a.eqcard:hover{color:inherit;box-shadow:0 10px 28px rgba(20,54,111,.12);transfor
 @media (min-width:761px){.dd .menu{min-width:210px}}
 .fees thead th:last-child{text-align:right}
 .eqcard{position:relative}.badge.sm{font-size:13px;margin:6px 0 0;padding:5px 12px}
+
+/* 오시는길 사진 */
+.gallery.way{grid-template-columns:repeat(3,1fr);margin:40px 0 0}
+@media (max-width:760px){.gallery.way{grid-template-columns:1fr}}
